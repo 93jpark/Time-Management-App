@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="@drawable/blue"
+    android:layout_height="match_parent">
+
+  <TextView
+      android:id="@+id/textView4"
+      android:layout_width="360dp"
+      android:layout_height="wrap_content"
+      android:layout_above="@+id/barGraph"
+      android:layout_alignParentStart="true"
+      android:layout_alignParentEnd="true"
+      android:layout_marginStart="22dp"
+      android:layout_marginEnd="22dp"
+      android:layout_marginBottom="34dp"
+      android:fontFamily="@font/kg_chasing_cars"
+      android:text="Top 5 Categories"
+      android:textColor="#FFFFFF"
+      android:textSize="50sp" />
+
+  <com.github.mikephil.charting.charts.BarChart
+      android:id="@+id/barGraph"
+      android:layout_width="match_parent"
+      android:layout_height="470dp"
+      android:layout_alignParentBottom="true"
+      android:layout_marginBottom="18dp">
+
+
+  </com.github.mikephil.charting.charts.BarChart>
+
+
+</RelativeLayout>

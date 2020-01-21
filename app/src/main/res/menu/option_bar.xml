@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/displayPieChart"
+        android:icon="@drawable/ic_pie_chart_black_24dp"
+        android:title="icon"
+        app:showAsAction="ifRoom"
+        />
+
+    <item
+        android:id="@+id/optionList"
+        android:title="Category List"
+        app:showAsAction="never"
+        />
+
+    <item
+        android:id="@+id/optionHome"
+        android:title="Home"
+        app:showAsAction="never"
+        />
+
+    <item
+        android:id="@+id/optionPieChart"
+        android:title="Pie"
+        app:showAsAction="never"
+        />
+
+    <item
+        android:id="@+id/optionSignOut"
+        android:title="Sign Out"
+        app:showAsAction="never"
+        />
+
+</menu>

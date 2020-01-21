@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/blue"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/txtChooseCategory"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="24dp"
+        android:fontFamily="@font/vinatages"
+        android:text="Choose Category"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="40sp" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="443dp"
+        android:layout_above="@+id/btnAdd"
+        android:layout_below="@+id/txtChooseCategory"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="8dp"
+        android:textAlignment="center" />
+
+    <Button
+        android:id="@+id/btnAdd"
+        android:background="@color/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="0dp"
+        android:text="Add"
+        android:textSize="25dp" />
+
+
+</RelativeLayout>

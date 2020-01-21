@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/blue"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/dispTotalHour"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/dispUserName"
+        android:layout_marginTop="61dp"
+        android:fontFamily="@font/rio_grande"
+        android:text="Total Time"
+        android:textAlignment="center"
+        android:textColor="#DD7212"
+        android:textSize="50sp" />
+
+    <Button
+        android:id="@+id/btnChooseCategory"
+        android:background="@color/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btnSignOut"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="80dp"
+        android:text="Choose Category"
+        android:padding="16dp"
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/txtTotalHours"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/dispTotalHour"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="83dp"
+        android:text="00:00"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="50dp"
+        tools:text="@string/time" />
+
+    <TextView
+        android:id="@+id/dispUserName"
+        android:layout_width="398dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="43dp"
+        android:layout_marginEnd="3dp"
+        android:text="User Name"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/btnSignOut"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:background="@color/colorPrimary"
+        android:padding="16dp"
+        android:text="Sign Out"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white" />
+
+
+
+
+</RelativeLayout>

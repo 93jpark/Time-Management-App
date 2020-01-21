@@ -1,0 +1,23 @@
+diff a/.idea/workspace.xml b/.idea/workspace.xml	(rejected hunks)
+@@ -67,8 +67,8 @@
+       <file pinned="false" current-in-tab="true">
+         <entry file="file://$PROJECT_DIR$/app/src/main/java/edu/cmich/timemanagement/Category.kt">
+           <provider selected="true" editor-type-id="text-editor">
+-            <state relative-caret-position="403">
+-              <caret line="39" column="5" lean-forward="true" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
++            <state relative-caret-position="388">
++              <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
+               <folding>
+                 <element signature="e#34#353#0" expanded="true" />
+               </folding>
+@@ -521,8 +521,8 @@
+     </entry>
+     <entry file="file://$PROJECT_DIR$/app/src/main/java/edu/cmich/timemanagement/Category.kt">
+       <provider selected="true" editor-type-id="text-editor">
+-        <state relative-caret-position="403">
+-          <caret line="39" column="5" lean-forward="true" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
++        <state relative-caret-position="388">
++          <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
+           <folding>
+             <element signature="e#34#353#0" expanded="true" />
+           </folding>

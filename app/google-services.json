@@ -1,0 +1,56 @@
+{
+  "project_info": {
+    "project_number": "132014726303",
+    "firebase_url": "https://time-management-8e85e.firebaseio.com",
+    "project_id": "time-management-8e85e",
+    "storage_bucket": "time-management-8e85e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:132014726303:android:ae40291b96c65066da56aa",
+        "android_client_info": {
+          "package_name": "edu.cmich.timemanagement"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "132014726303-kokhnff1ina9pqos82tqq6b01t65oi7j.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "edu.cmich.timemanagement",
+            "certificate_hash": "bd9901b13588ef4d0635e498d701733d98f1bfcd"
+          }
+        },
+        {
+          "client_id": "132014726303-5auboerelqjnreprkp785u9dpfuabdhq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "edu.cmich.timemanagement",
+            "certificate_hash": "e03aaebb21f9eed240fe2558e05b679d5266b1d3"
+          }
+        },
+        {
+          "client_id": "132014726303-gc58n9gngj3njghkdolifadlbvf2ll4g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAksXWoDcmfx8lvzDaDSVVbudcYryh--Nc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "132014726303-gc58n9gngj3njghkdolifadlbvf2ll4g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
